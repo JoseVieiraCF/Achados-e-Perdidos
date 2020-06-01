@@ -29,18 +29,3 @@
     height: 35px;
     border: none;
 }
-.inputs button{
-    margin-top: 15px;
-    width: 100%;
-    height: 40px;
-    color: white;
-    background-color: #28047c;
-    border: none;
-    border-radius: 15px;
-    font-size: 18px;
-    outline: 0;
-}
-.inputs button:hover{
-    background-color: #280872;
-    
-}
