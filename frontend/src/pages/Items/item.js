@@ -1,22 +1,23 @@
 import React from 'react';
 import Caneta from '../../assets/caneta.jpg';
 
-export default function Item(){
+export default function Item(props){
+    const item = props.item;
     return(
-        <div>
-            <ul >
+        <div  className="item">
+            <ul>
                 <li>
                     <img src={Caneta} alt="caneta"/>
-                  
                     <strong>Objeto:</strong>
-                    <p>Caneta azul</p>
+                    <p>{item.name}</p>
                     <strong>Descrição</strong>
-                    <p>Caneta azul bla bla bla</p>
+                    <p>{item.description}</p>
                     <strong>Perdido:</strong>
-                    <p>Próximo ao banheiro</p>
-                    
+                    <p>{item.lost}</p> 
+                    <button>Excluir</button>
                 </li>
             </ul>
         </div>
+        
     );
 }

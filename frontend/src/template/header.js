@@ -7,9 +7,12 @@ export default function Header(props){
         <div className="item-container">
                 <header>
                     <img src={Logo} alt='Logo'/>
-                    <span>Bem vindo, {props.name}</span>
-                    <button className="btn-sair">Sair</button>
-                </header>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Cadastrar objeto</a></li>
+                        <li className="btn-sair"><a href="#">sair</a></li>   
+                    </ul>
+                </header> 
             </div>
     );
 }

@@ -5,8 +5,8 @@
 }
 .item-container img{
     margin-left: 15px;
-   width: 100px;
-   height: 100px;
+    width: 50px;
+    height: 50px;
 }
 
 .item-container header{
@@ -14,22 +14,32 @@
     align-items: center;
 }
 
-.item-container header span{
-    font-size: 40px;
-    color: white;
-    margin-left: 20px;
-}
-.btn-sair{
-    background-color: red;
+.item-container ul{
     width: 100%;
-    max-width: 60px;
-    margin-left: auto;
-    margin-right: 20px;
-    height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+    list-style: none;
+}
+
+.item-container li{
+    display: inline;
+    float: left;
+}
+
+.item-container li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
     color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 18px;
+    font-size: 20px;
+
+  }
+#sair {
+    float: right;
+
+  }
+.btn-sair{
     outline: 0;
+    float: right;
 }
 
